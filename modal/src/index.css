@@ -1,0 +1,50 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.openModalBtn {
+  background-color: lightskyblue;
+  text-transform: capitalize;
+  border: none;
+  margin: 10px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.modalBody {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  height: 25%;
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.closeBtn {
+  display: flex;
+  justify-content: end;
+  margin: 3%;
+}
+
+.contentBox {
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78%;
+  width: 100%;
+  text-align: center;
+}
