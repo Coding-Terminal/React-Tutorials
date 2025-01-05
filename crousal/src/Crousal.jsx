@@ -12,7 +12,8 @@ const Crousal = ({ data }) => {
 
   const resetTimer = () => {
     clearTimeout(timer.current);
-    timer.current = setTimeout(() => {
+    // in video by mistake it was setTimeout instead of setInterval
+    timer.current = setInterval(() => {
       setIdx((prevIdx) => (prevIdx == data.length - 1 ? 0 : prevIdx + 1));
     }, 3000);
   };
